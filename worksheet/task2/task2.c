@@ -2,8 +2,8 @@
  * Sem 2, week 5
  *
  * Portfolio submission: Hexadecimal to Decimal Converter
- * Name:
- * ID: 
+ * Name:Jiexiang Xu
+ * ID: 201956729
  */
 
 #include <stdio.h>
