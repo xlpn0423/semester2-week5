@@ -32,13 +32,15 @@ int main(void){
 
 		char a = toupper(hex[i]);
 
+		decimal = decimal * 16;
+
 		if(a >= '0' && a <= '9'){
 
-			decimal = decimal + ( a - '0' ) * 16; 
+			decimal = decimal + ( a - '0' ); 
 		
 		} else if ( a >= 'A' && a <= 'F') {
 
-			decimal = decimal + ( a - 'A' ) * 16;
+			decimal = decimal + ( a - 'A' + 10);
 
 		} else {
 
