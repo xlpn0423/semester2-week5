@@ -34,11 +34,11 @@ int main(void){
 
 		if(a >= '0' && a <= '9'){
 
-			decimal = decimal + a - '0'; 
+			decimal = decimal + ( a - '0' ) * 16; 
 		
 		} else if ( a >= 'A' && a <= 'F') {
 
-			decimal = decimal + a - 'A';
+			decimal = decimal + ( a - 'A' ) * 16;
 
 		} else {
 
@@ -48,6 +48,7 @@ int main(void){
 
 		}
 		
+
 	}
 	// if input contains invalid hex digit
 	// printf("Error: Invalid Hexadecimal\n");
